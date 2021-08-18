@@ -1,0 +1,33 @@
+.main {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.displayName {
+    margin: 50px;
+    color: #2c2828;
+}
+
+button {
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    padding: 10px;
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.logos {
+    border-bottom: 1px solid silver;
+    padding-bottom: 5px;
+    justify-content: space-around;
+}
+
+.logos img {
+    margin: 5px;
+}
